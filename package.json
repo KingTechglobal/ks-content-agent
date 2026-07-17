@@ -2,11 +2,11 @@
   "name": "ks-content-agent",
   "version": "1.0.0",
   "description": "Multi-agent content intelligence and control system for Solomon",
-  "main": "dist/src/server.js",
+  "main": "dist/server.js",
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/src/server.js",
+    "start": "node dist/server.js",
     "dev": "tsx watch src/server.ts",
     "test": "vitest run",
     "test:watch": "vitest",
